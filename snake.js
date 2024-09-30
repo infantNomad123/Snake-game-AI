@@ -258,7 +258,7 @@ setInterval(gameLoop,100)
 /* Things to note:
  
 -> I haven't set the snake's body coordinates with the grid unit value, which won't be compatible to the newly added head coordinates
-   (which are in grid unit values) and would later cause hell lotta fucking errors.
+   (which are in grid unit values) and would later cause loads of errors.
 
 -> Same thing with locateApple function. The applex and appley coordinates were multiplied into 20 which would less likely be a grid unit
    value, which would lay the coordinates off the bound.
